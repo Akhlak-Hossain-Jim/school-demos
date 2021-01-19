@@ -1,0 +1,82 @@
+.section__1 {
+    margin: 0 auto;
+    // padding: 0 50px;
+    max-width: 1400px;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: center;
+    .grid__chaild {
+        margin: 20px 0;
+        min-height: 300px;
+        background-color: rgb(255, 163, 163);
+        .leftnotice__nav__box {
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 5px rgb(179, 176, 176);
+            padding: 10px;
+            iframe {
+                max-width: 350px;
+                width: 100%;
+                border-radius: 10px;
+            }
+            .notice__grid__chaild {
+                display: grid;
+                a {
+                    font-weight: 600;
+                    color: black;
+                    &:hover {
+                        color: $color-hov;
+                    }
+                }
+            }
+        }
+        .perabout__box {
+            padding: 10px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 5px rgb(179, 176, 176);
+            .princ__img {
+                width: 13vw;
+                border-radius: 10px;
+            }
+        }
+    }
+}
+
+.section__2 {
+    margin: 0 auto;
+    background-color: #000;
+}
+
+.section__3 {
+    display: grid;
+    background-color: #10152C;
+    grid-template-columns: repeat(2, 1fr);
+    .grid__chaild {
+        background-color: $color-hov;
+        padding: 20px;
+        a {
+            text-decoration: none;
+            color: $color-1;
+            font-size: 50px;
+            font-weight: 600;
+            &:hover {
+                text-decoration: overline;
+            }
+        }
+    }
+}
+
+.section__4 {
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    margin: 20px auto;
+    .fb__iframe {
+        display: grid;
+        justify-content: right !important;
+        border-radius: 20px;
+    }
+}

@@ -9,8 +9,7 @@
 body {
     box-sizing: border-box;
     margin: auto;
-}
-
-main {
-    max-width: 1200px;
+    background-color: rgb(206, 206, 206);
+    width: 100vw !important;
+    overflow-x: hidden;
 }

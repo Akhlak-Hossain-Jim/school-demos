@@ -1,0 +1,29 @@
+@import "./base/base";
+@import "./base/typography";
+
+
+@import "./color/color";
+
+
+@import "./layout/footer";
+@import "./layout/form";
+@import "./layout/header";
+
+
+@import "./component/buttons";
+
+
+@import "./pages/home";
+@import "./pages/about";
+@import "./pages/academic";
+@import "./pages/gallary";
+@import "./pages/magazine";
+@import "./pages/news";
+@import  "./pages/notice";
+@import "./pages/onlineclass";
+@import "./pages/onlineaddmission";
+
+.big__gap {
+    height: 700px;
+    background-color: #000;
+}
