@@ -1,0 +1,25 @@
+{
+  "name": "school-1",
+  "version": "1.0.0",
+  "description": "Demo School website for BASITS -1",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass --watch ./sass/main.scss:./css/style.css --style compressed",
+    "prefix": "postcss ./css/style.css --use autoprefixer -d ./css/prefixed/"
+  },
+  "keywords": [
+    "School",
+    "Bd",
+    "school",
+    "Bangladesh",
+    "Educational",
+    "Institute"
+  ],
+  "author": "Akhlak Hossain Jim",
+  "license": "ISC",
+  "dependencies": {
+    "autoprefixer": "^10.2.1",
+    "sass": "^1.32.4"
+  }
+}

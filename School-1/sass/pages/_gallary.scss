@@ -1,0 +1,30 @@
+.gallary__container {
+    max-width: 1200px !important;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10 #179BD7 !important;
+    h4 {
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        a {
+            color:#179BD7;
+            margin-left: 50px;
+            border: 1px solid #179BD7;
+            padding: 10px;
+            border-radius: 10px;
+            text-decoration: none;
+            &:hover {
+                color: #253280;
+                border: 3px solid #253280;
+            }
+        }
+    }
+    .gallary__image__container, .gallary__video__container {
+        .image__con {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr) !important;
+        }
+        
+    }
+}

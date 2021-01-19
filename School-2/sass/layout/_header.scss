@@ -1,0 +1,83 @@
+.header__i {
+    margin: 0 auto;
+    background-color: $color-6;
+    .Demo__Logo {
+        margin: auto;
+        text-align: center;
+        color: #ffffff;
+        font-size: 150px;
+        @media (max-width: 680px) {
+            font-size: 80px;
+        }
+    }
+    .header__nav {
+        padding: 30px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        .nav__brand {
+            font-size: 100px !important;
+            text-align: right;
+            color: #000;
+        }
+        .nav-link {
+            margin-right: 10px;
+            border-radius: 10px;
+            font-weight: 600;
+            color: #ffffff !important;
+            &:hover {
+                background-color: $color-5;
+                 color: $color-hov !important;
+            }
+        }
+        .active {
+            background-color: $color-5;
+            color: $color-hov !important;
+        }
+        .btn-outline-cus {
+            outline: #179BD7 !important;
+            border: 2px solid rgb(194, 194, 194)!important;
+            border-radius: 10px !important;
+            color: #ffffff;
+            &:hover {
+                background-color:$color-5;
+                border: 2px solid $color-5!important;
+                color: $color-hov !important;
+            }
+        }
+    }
+    .header__ii {
+        margin: 0 auto;
+        background-color: $color-2;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        padding: 10px;
+        .header__i__section-1{
+            i {
+                color: #ffffff;
+                margin-left: 10px;
+                a {
+                    color: #ffffff;
+                    font-size: 18px;
+                    font-weight: 400;
+                    text-decoration: none;
+                }
+            }
+        }
+        .header__i__section-2 {
+            display: flex;
+            flex-flow: row wrap;
+            i {
+                margin-left: 10px;
+                color: #ffffff;
+                text-decoration: none;
+                font-size: 18px;
+            }
+            a {
+                color: #ffffff;
+                text-decoration: none;
+            }
+        }
+    }
+}

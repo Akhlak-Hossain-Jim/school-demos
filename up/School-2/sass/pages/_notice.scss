@@ -1,0 +1,47 @@
+.noticeBoard__box {
+    margin: 50px 0;
+    .noticeBoard__box__header {
+        display: grid;
+        grid-template-areas: 
+            "date ab ab ab ab ab ab"
+            "date bc bc bc bc bc bc";
+        .notice__date__box {
+            display: grid;
+            grid-template-areas: 
+                                "a a"
+                                "b b";
+            grid-area: date;
+            .to-bar{
+                grid-area: a;
+                width: 100px;
+                background-color: #179BD7;
+                color: #ffffff;
+                text-align: center;
+            }
+            h1 {
+                grid-area: b;
+                border: 1px solid #179BD7;
+                display: flex;
+                height: 80px;
+                width: 100px;
+                align-items: center;
+                justify-content: center;
+            }
+        }
+        .notice__title {
+            padding-left: 20px !important;
+            grid-area: ab;
+            color: #000000;
+        }
+        .notice__subtitle {
+            padding-left: 20px !important;
+            grid-area: bc;
+            color: #646464;
+        }
+    }
+    .noticeBoard__box__body {
+        overflow: scroll;
+        height: 300px;
+        margin-top: 20px;
+    }
+}
