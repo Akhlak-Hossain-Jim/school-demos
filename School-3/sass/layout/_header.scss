@@ -17,6 +17,9 @@ header {
         }
         .active__1 {
             color: $color-2;
+            &:hover {
+                color:#fff
+            }
         }
     }
     .image__bg {
