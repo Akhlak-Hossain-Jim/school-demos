@@ -1,0 +1,15 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+body {
+    box-sizing: border-box;
+    margin: auto;
+    background-color: rgb(206, 206, 206);
+    width: 100vw !important;
+    overflow-x: hidden;
+}
